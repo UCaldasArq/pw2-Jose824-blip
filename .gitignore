@@ -1,0 +1,140 @@
+# =========================
+# JAVA / SPRING BOOT
+# =========================
+
+target/
+build/
+out/
+
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+hs_err_pid*
+replay_pid*
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# INTELLIJ IDEA
+# =========================
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IntelliJ cache
+out/
+
+# =========================
+# VS CODE
+# =========================
+
+.vscode/
+
+# =========================
+# NODE / REACT / VITE
+# =========================
+
+node_modules/
+
+dist/
+coverage/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.eslintcache
+
+# Vite
+vite.svg
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# =========================
+# TESTING
+# =========================
+
+coverage/
+test-results/
+
+# =========================
+# OS FILES
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# DOCKER
+# =========================
+
+docker-data/
+mysql-data/
+
+*.pid
+
+# Docker overrides
+docker-compose.override.yml
+
+# Local docker env
+.docker/
+
+# =========================
+# MYSQL
+# =========================
+
+*.sql.gz
+
+# =========================
+# TEMP FILES
+# =========================
+
+tmp/
+temp/
+
+# =========================
+# LOGS
+# =========================
+
+logs/
+*.log
+
+# =========================
+# CACHE
+# =========================
+
+.cache/
+
+# =========================
+# SECURITY
+# =========================
+
+*.pem
+*.key
+*.crt
+
+# =========================
+# MISC
+# =========================
+
+*.swp
+*.swo
